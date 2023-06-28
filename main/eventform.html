@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Event Booking Form - HotelTips</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="eventform.css">
+
+
+</head>
+
+<body>
+  <!-- Form Section -->
+  <section id="form" class="form-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h2>Event Booking Form</h2>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="event-name">Event Name:</label>
+              <input type="text" id="event-name" name="event-name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="event-type">Event Type:</label>
+              <select id="event-type" name="event-type" class="form-control" required>
+                <option value="">Select Event Type</option>
+                <option value="Symphony Banquets, Events & Conferences">Symphony Banquets, Events & Conferences</option>
+                <option value="The Classroom">The Classroom</option>
+                <option value="Lush The Lawn">Lush The Lawn</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="date">Date:</label>
+              <input type="date" id="date" name="date" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="guests">Number of Guests:</label>
+              <input type="number" id="guests" name="guests" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="budget">Budget:</label>
+              <input type="text" id="budget" name="budget" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="name">Your Name:</label>
+              <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address:</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" class="form-control" required>
+            </div>
+            <div class="button">
+                <a href="thankyou.html"><input type="button" class="btn" value="Submit" ></a>
+              </div>
+          
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
